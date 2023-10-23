@@ -1,3 +1,14 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -11,7 +22,27 @@ a {
 
 ul,
 ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  margin-right: 16px;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
 }
 
 .logo {
@@ -28,11 +59,15 @@ ol {
   color: #2e2f42;
 }
 
-.page-top {
+.page-header {
   background: #fcfcfc;
 }
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
 
-.nav-text {
+.page-navigation {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -47,7 +82,7 @@ ol {
   color: #404bbf;
 }
 
-.page-address {
+.list-address {
   font-style: normal;
 }
 
@@ -75,9 +110,16 @@ ol {
 }
 
 .section-title {
-  color:  #2e2f42;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-right: auto;
+  margin-bottom: 72px;
+  margin-left: auto;
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -150,11 +192,15 @@ ol {
 }
 
 .app-info {
+  display: flex;
+  flex-wrap: wrap;
   background: #fff;
   line-height: 1.11;
+  column-gap: 24px;
 }
 
 .service-info {
+  width: calc((100% - 2 * 24px) / 6);
   background: #fff;
 }
 
@@ -163,8 +209,8 @@ ol {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .project-info {
