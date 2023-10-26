@@ -77,21 +77,21 @@ img {
 }
 
 /* ----- LOGO STYLE ---- */
-.logo-web {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
+.logo {
+  margin-right: 76px;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  padding-right: 76px;
+  font-size: 1.125rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: block;
-  padding: 32px 0 32px;
+  color: #4d5ae5;
 }
-
-.logo-studio {
+.logo__span {
   color: #2e2f42;
+}
+.logo--white .logo__span {
+  color: #f4f4fd;
 }
 
 /*----- NAVIGATION ----- */
@@ -295,7 +295,7 @@ img {
 }
 
 .team-name-position {
-  padding: 32px 0 32px;
+  padding: 2rem 0;
 }
 
 .team-list-item-name {
