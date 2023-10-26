@@ -1,22 +1,19 @@
 body {
-    font-family: Roboto,
-        sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
-
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 ul,
 ol {
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 h1,
@@ -26,202 +23,192 @@ h4,
 h5,
 h6,
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
 
 .container {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
-
 
 /* ------------------- HEADER  ------------------ */
 .page-header {
-    border-bottom: 1px solid #e7e9fc;
-  
+  border-bottom: 1px solid #e7e9fc;
 }
 
- .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
- .studio,
- .portfolio,
- .contacts {
-     padding: 120px 0;
-     
- } 
-
+.studio,
+.portfolio,
+.contacts {
+  padding: 120px 0;
+}
 
 .header-nav-bar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-
 /* ----- LOGO STYLE ---- */
-.logo-web {    
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    padding-right: 76px;
-    text-transform: uppercase;
-    display: block;
+.logo-web {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  padding-right: 76px;
+  text-transform: uppercase;
+  display: block;
 }
 
 .logo-studio {
-    color: #2E2F42;
+  color: #2e2f42;
 }
-
 
 /*----- NAVIGATION ----- */
 .navigation {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
 .navigation-list {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    align-items: center;
-
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
 }
 
 .navigation-link-item-name {
-    color: #2E2F42;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    padding: 24px 0;
-    display: block;
+  color: #2e2f42;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 24px 0;
+  display: block;
 }
 
 .navigation-link-item-name:hover,
 .navigation-link-item-name:focus {
-    color: #404BBF;
+  color: #404bbf;
 }
-
 
 /* ----- ADDRESS ------ */
 .address {
-    font-style: normal;
+  font-style: normal;
+  display: flex;
+  margin-right: 40px;
+  margin-right: 0%;
 }
 
 .address-list {
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    gap: 40px;
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }
 
 .address-list-item-name {
-    color: #434455;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    display: block;
-
+  color: #434455;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  display: block;
 }
 
 .address-list-item-name:hover,
 .address-list-item-name:focus {
-    color: #404BBF;
+  color: #404bbf;
 }
-
 
 /* ----------- HERO SECTION ---------- */
 .hero-section {
-    background: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
-     flex-shrink: 0; 
+  background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  flex-shrink: 0;
 }
 
 .hero-title {
-    width: 496px;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: Roboto, sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    max-width: 496px;
-    margin: 0 auto;
-
+  width: 496px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero-button {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    padding: 16px 32px;
-    margin-top: 48px;
-    margin-left: 480px;
-    margin-right: 480px;
-    /* align-items: center; */
-    /* gap: 10px; */
-    border-radius: 4px;
-    background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  padding: 16px 32px;
+  margin-top: 48px;
+  margin-left: 480px;
+  margin-right: 480px;
+  /* align-items: center; */
+  /* gap: 10px; */
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
-
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .hero-button-name {
-    color: #FFFFFF;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    width: 169px;
-    white-space: nowrap;
-    text-align: center;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 169px;
+  white-space: nowrap;
+  text-align: center;
 }
 
 /* ----------- Item Team ---------- */
@@ -359,6 +346,7 @@ img {
   column-gap: 24px;
   margin-left: auto;
   margin-right: auto;
+  width: calc((100% - 48px) / 3);
 }
 
 .portflio-list-item {
